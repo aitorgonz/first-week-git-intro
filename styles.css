@@ -45,17 +45,28 @@ body {
 /* Dark theme */
 [data-theme="dark"] {
   background: #0d1117;
-  color: #c9d1d9;
+  color: #f0f6fc;
 }
 
 [data-theme="dark"] .site-header {
-  background-color: #161b22;
+  background-color: #010409;
+}
+
+[data-theme="dark"] .site-header a {
+  color: #f0f6fc;
 }
 
 [data-theme="dark"] .cta-button {
-  background: #238636;
+  background: #1a7f37;
+  color: #ffffff;
 }
 
 [data-theme="dark"] .cta-button:hover {
-  background: #2ea043;
+  background: #116329;
+}
+
+[data-theme="dark"] .cta-button:focus-visible {
+  outline: 3px solid #58a6ff;
+  outline-offset: 2px;
+}
 }
